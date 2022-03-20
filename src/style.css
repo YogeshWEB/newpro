@@ -9,10 +9,42 @@ header nav ul{
     margin: 0px;
 }
 header nav ul li{
-    padding: 10px 15px;
+    padding: 20px 15px;
     margin-left: 20px;
     margin-right: 20px;
     color: aliceblue;
     font-size: 18px;
     font-weight: 400;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(25, 25, 25,1);
+}
+.heading{
+    display: flex;
+    background-color: rgba(25, 25, 25,1);
+    padding: 20px 30px;
+    
+}
+.heading p{
+    font-size: 3rem;
+    margin: 0px;
+    color: aliceblue;
+    
+}
+.heading p u{
+    text-decoration-thickness: 0.15rem;
+    text-decoration-color: #74a9f6;
+}
+.secline{
+    display: flex;
+    
+}
+.secline p{
+    color: aliceblue;
+    margin: 12px;
+    padding: 0 0 20px 0;
 }
